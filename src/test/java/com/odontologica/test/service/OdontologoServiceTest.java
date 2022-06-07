@@ -13,6 +13,7 @@ class OdontologoServiceTest {
     org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(OdontologoServiceTest.class);
 
     OdontologoService odontologoService = new OdontologoService();
+    private Assertions Assert;
 
     @Test
     void guardaOdontologoEnBaseDatos() {
@@ -27,6 +28,24 @@ class OdontologoServiceTest {
         odontologoService.guardaOdontologoService(odontologo);
 
     }
+    @Test
+    void guarda() {
+
+        odontologoService.setOdontologoIDAO(new OdontologoDAOH2());
+
+        Odontologo odontologo = new Odontologo();
+
+        odontologo.setNombre("Hector");
+        odontologo.setApellido("moreno");
+        odontologo.setNumeroMatricula("79904519");
+        odontologoService.guardaOdontologoService(odontologo);
+
+
+        Assertions.assertEquals("Hector", odontologo.getNombre());
+
+
+    }
+
 
     @Test
     void eliminarOdontologoPorID() {

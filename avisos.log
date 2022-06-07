@@ -118,3 +118,15 @@
 [2022-06-07 12:58:19] [ INFO ] [ConfiguracionJDBC:39] Se ha establecido correctamente la conexion a la base de datos
 [2022-06-07 12:58:19] [ INFO ] [ConfiguracionJDBC:53] Se cargo correctamente el driver jdbc
 [2022-06-07 12:58:19] [ INFO ] [ConfiguracionJDBC:39] Se ha establecido correctamente la conexion a la base de datos
+[2022-06-07 13:50:59] [ INFO ] [ConfiguracionJDBC:53] Se cargo correctamente el driver jdbc
+[2022-06-07 13:51:00] [ INFO ] [ConfiguracionJDBC:39] Se ha establecido correctamente la conexion a la base de datos
+[2022-06-07 13:51:00] [ INFO ] [OdontologoDAOH2:38] Informacion Guardada correctamente
+[2022-06-07 13:55:15] [ INFO ] [ConfiguracionJDBC:53] Se cargo correctamente el driver jdbc
+[2022-06-07 13:55:15] [ INFO ] [ConfiguracionJDBC:39] Se ha establecido correctamente la conexion a la base de datos
+[2022-06-07 13:55:15] [ INFO ] [OdontologoDAOH2:38] Informacion Guardada correctamente
+[2022-06-07 13:55:35] [ INFO ] [ConfiguracionJDBC:53] Se cargo correctamente el driver jdbc
+[2022-06-07 13:55:35] [ INFO ] [ConfiguracionJDBC:39] Se ha establecido correctamente la conexion a la base de datos
+[2022-06-07 13:55:35] [ INFO ] [OdontologoDAOH2:38] Informacion Guardada correctamente
+[2022-06-07 13:55:56] [ INFO ] [ConfiguracionJDBC:53] Se cargo correctamente el driver jdbc
+[2022-06-07 13:55:57] [ INFO ] [ConfiguracionJDBC:39] Se ha establecido correctamente la conexion a la base de datos
+[2022-06-07 13:55:57] [ INFO ] [OdontologoDAOH2:38] Informacion Guardada correctamente
