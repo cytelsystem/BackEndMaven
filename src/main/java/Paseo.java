@@ -57,11 +57,19 @@ public class Paseo {
 
             ArrayList<Perro> dia;
 
-            for (int i =0; i< 5; i++) {
+            for (int i=0; i<5; i++) {
 
+                System.out.println("Dia: "+ i+1);
+                System.out.println("==============================");
+                dia = (ArrayList<Perro>) archiIn.readObject();
 
+                for (Perro p: dia) {
+                    System.out.println(p);
+                }
 
             }
+
+            archiIn.close();
 
 
 
@@ -69,6 +77,8 @@ public class Paseo {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
 
