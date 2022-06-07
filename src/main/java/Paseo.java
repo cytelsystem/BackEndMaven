@@ -59,7 +59,7 @@ public class Paseo {
 
             for (int i=0; i<5; i++) {
 
-                System.out.println("Dia: "+ i+1);
+                System.out.println("Dia: "+ (i+1));
                 System.out.println("==============================");
                 dia = (ArrayList<Perro>) archiIn.readObject();
 
